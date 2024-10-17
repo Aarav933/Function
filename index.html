@@ -4,14 +4,26 @@
     </head>
     <body>
         <h1>JS Function</h1>
-        <button onclick="add(6,8)">Execute</button>
-      
+        <button onclick="add(6,8)">Add</button>
+         <button onclick="subtrakt()">Subtract</button>
+         <button onclick="mult()">Multiplikation</button>
         <script>
         function add(a,b){
             document.write(a+b)
         }
 
-        
+        function subtrakt(){
+            var a=5;
+            var b=3;
+            var c=a-b;
+            document.write("Subtraction is="+c)
+        }
+        function mult(){
+            var a= prompt("Enter the value of a");
+            var b= prompt("Enter the value of b");
+            var c= a*b;
+            document.write("Multiplikation is ="+c)
+        }
         </script>
     </body>
 </html>
